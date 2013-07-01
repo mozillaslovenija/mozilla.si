@@ -1,8 +1,8 @@
-# WordPress OneMozilla Theme for Slovenian community (mozilla.si)
+# Mozilla Slovenija Wordpress theme (mozilla.si)
 
 ## Summary
 
-[Mozilla Slovenija](http://www.mozilla.si/) Wordpress theme, heavily based on [OneMozilla](https://github.com/mozilla/One-Mozilla-blog/tree/master/themes/OneMozilla) and current [mozilla.org](https://www.mozilla.org/) website. Tested with WordPress 3.5.1. Version 1.0.
+WordPress OneMozilla theme for [Slovenian community](http://www.mozilla.si/), heavily based on [OneMozilla](https://github.com/mozilla/One-Mozilla-blog/tree/master/themes/OneMozilla) and current [mozilla.org](https://www.mozilla.org/) website. Tested with WordPress 3.5.1. Version 1.0.
 
 ## Contributors
 
@@ -16,3 +16,8 @@ Rok Samsa ([LinkedIn](http://si.linkedin.com/in/roksamsa) | [Twitter](http://twi
 * [W3 Total Cache](http://wordpress.org/extend/plugins/w3-total-cache/)
 * [Display Widgets](http://wordpress.org/plugins/display-widgets/)
 * [NIVO slider light](http://wordpress.org/plugins/nivo-slider-light/)
+
+## Changelog
+
+### Version 1.0
+* initial version
