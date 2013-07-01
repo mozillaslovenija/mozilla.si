@@ -2,7 +2,9 @@
 
 ## Summary
 
-WordPress OneMozilla theme for [Slovenian community](http://www.mozilla.si/), heavily based on [OneMozilla](https://github.com/mozilla/One-Mozilla-blog/tree/master/themes/OneMozilla) and current [mozilla.org](https://www.mozilla.org/) website. Tested with WordPress 3.5.1. Version 1.0.
+WordPress OneMozilla theme for [Slovenian community](http://www.mozilla.si/), heavily based on [OneMozilla](https://github.com/mozilla/One-Mozilla-blog/tree/master/themes/OneMozilla) and current [mozilla.org](https://www.mozilla.org/) website. Tested with WordPress 3.5.1. 
+
+Version 1.0.
 
 ## Contributors
 
