@@ -19,6 +19,10 @@ Rok Samsa ([LinkedIn](http://si.linkedin.com/in/roksamsa) | [Twitter](http://twi
 * [Display Widgets](http://wordpress.org/plugins/display-widgets/)
 * [NIVO slider light](http://wordpress.org/plugins/nivo-slider-light/)
 
+## Widgets
+
+http://www.flickr.com/photos/98904090@N06/9284041769/
+
 ## Changelog
 
 ### Version 1.0
