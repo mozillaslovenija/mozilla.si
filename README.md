@@ -21,7 +21,7 @@ Rok Samsa ([LinkedIn](http://si.linkedin.com/in/roksamsa) | [Twitter](http://twi
 
 ## Widgets
 
-We implemented eight different spaces for widgets (http://www.flickr.com/photos/98904090@N06/9284041769/):
+We implemented eight different spaces for widgets - http://www.flickr.com/photos/98904090@N06/9284041769/
 * Sidebar
 * Top Menu
 * Mobile Menu
