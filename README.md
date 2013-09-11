@@ -8,7 +8,7 @@ Version 1.0.
 
 ## Contributors
 
-Rok Samsa ([LinkedIn](http://si.linkedin.com/in/roksamsa) | [Twitter](http://twitter.com/rok_samsa) | [Facebook](https://www.facebook.com/rok.samsa) | [roksamsa.com](http://www.roksamsa.com))
+Rok Samsa ([Gmail](mailto:rok.samsa@gmail.com?Subject=Mozilla Slovenija theme) | [LinkedIn](http://si.linkedin.com/in/roksamsa) | [Twitter](http://twitter.com/rok_samsa) | [Facebook](https://www.facebook.com/rok.samsa) | [roksamsa.com](http://www.roksamsa.com))
 
 ## Suggested Plugins
 
