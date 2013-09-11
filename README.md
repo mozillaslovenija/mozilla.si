@@ -23,9 +23,7 @@ Rok Samsa ([Gmail](mailto:rok.samsa@gmail.com?Subject=Mozilla Slovenija theme) |
 
 We implemented eight different spaces for widgets - http://flic.kr/p/f9p9aF. For home page widgets layout (http://flic.kr/p/fPoy91) and for content page widgets layout (http://flic.kr/p/fPpEWN).
 
-* Sidebar 
-Frontend (http://flic.kr/p/fhZQxP)
-Backend (http://flic.kr/p/fhZQxP)
+* Sidebar (http://flic.kr/p/fhZQxP)
 * Top Menu
 * Mobile Menu
 * Footer Menu
