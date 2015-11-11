@@ -1,6 +1,5 @@
-<?php get_header(); ?>
-
-  <div id="content-main" class="main" role="main">
+<?php get_header(); ?>  
+<div id="content-main" class="main" role="main">
 
   <?php if ( is_front_page() && ($paged < 1) ) :
     /* Set up a custom loop for the three most recent featured posts */

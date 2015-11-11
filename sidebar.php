@@ -1,6 +1,7 @@
 <div id="content-sub" class="sub sidebar widgets" role="complementary">
-
-<?php if ( !is_active_sidebar('sidebar') ) : ?>
+   
+<div id="content-sub-wrap">
+<?php if (!is_active_sidebar('sidebar')) : ?>
   <?php $options = onemozilla_get_theme_options();
   /* If we're showing authors, show the bio in the sidebar */
   if ( ($options['hide_author'] != 1) && (is_single() || is_author()) ) : ?>
@@ -80,10 +81,12 @@
       ?>
       <p><a class="url go" href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php printf(__('More from %s', 'onemozilla'), $name); ?></a></p>
       <?php endif; ?>
+
     </aside>
   <?php endif; ?>
 
   <?php dynamic_sidebar( 'sidebar' ); ?>
 
 <?php endif; ?>
+</div>
 </div><!-- #content-sub -->

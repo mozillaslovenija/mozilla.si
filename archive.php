@@ -1,3 +1,4 @@
+
 <?php
 // Count search results
 global $wp_query;

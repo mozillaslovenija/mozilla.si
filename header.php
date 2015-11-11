@@ -71,6 +71,16 @@
 </head>
 
 <body <?php body_class($theme_options[color_scheme]); ?> role="document">
+<!-- Qualaroo for mozilla.si -->
+<script type="text/javascript">var _kiq = _kiq || [];</script>
+<script type="text/javascript">
+  (function(){
+    setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript'; 
+    s.async = true; s.src = '//s3.amazonaws.com/ki.js/49142/a81.js'; f.parentNode.insertBefore(s, f);
+    }, 1);
+  })();
+</script>
 <div id="page"><div class="wrap">
   <nav id="nav-access">
     <ul role="navigation">

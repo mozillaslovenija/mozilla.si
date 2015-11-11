@@ -1,3 +1,4 @@
+
 <?php
 if (!function_exists('onemozilla_setup')):
 /**

@@ -27,5 +27,11 @@ jQuery(document).ready(function () {
 			jQuery('#mobilemenu #menu-main-menu-1').css('display', 'none');
   		});
 	});	
+	
+	jQuery("#cc-notification-icon").clickToggle(function() {	
+    	jQuery("#cc-notification").fadeOut("slow");
+	}, function() {
+    	jQuery("#cc-notification").fadeIn("slow");
+	});	
 			
 });

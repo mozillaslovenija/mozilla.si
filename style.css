@@ -89,10 +89,13 @@ Tags: two-columns, right-sidebar, fixed-width, responsive, adaptive-layout, cust
        url("//www.mozilla.org/media/fonts/OpenSans-Regular-webfont.woff") format("woff"),
        url("//www.mozilla.org/media/fonts/OpenSans-Regular-webfont.ttf") format("truetype");
   font-weight: bold;
+  font-weight: bold;
   font-style: normal;
 }
 
 /* Added by Rok Samsa *********/
+.home #menu-item-1268 {visibility: hidden;}
+
 #menu-main-menu-1:before {
 content: "";
 display: block;
@@ -342,9 +345,9 @@ font-size: 12px;
 line-height: 16px;
 }
 
-#masthead #topmenu {position: absolute; right:150px; top:0; margin-top:-14px; z-index:9999999999; display:block;}
-#masthead #topmenu ul li {float:left; display:block; text-transform: uppercase; font-size: 13px; font-family: 'Open Sans', sans-serif; z-index:9999999999;}
-#masthead #topmenu li a {display: inline-block; padding:12px 15px; font-weight: normal; z-index:9999999999;}
+#masthead #topmenu {position: absolute; right:150px; top:0; margin-top:-14px; z-index:9999; display:block;}
+#masthead #topmenu ul li {float:left; display:block; text-transform: uppercase; font-size: 13px; font-family: 'Open Sans', sans-serif; z-index:9999;}
+#masthead #topmenu li a {display: inline-block; padding:12px 15px; font-weight: normal; z-index:9999;}
 #masthead .home {text-align:center;}
 
 #masthead #mobilemenu {display:none; position:absolute; top: 30px; left:25px; height:0px; margin-top:23px;}
@@ -354,6 +357,45 @@ line-height: 16px;
 #footermenu ul li {padding:0; font-size:12px;}
 #footermenu ul li a {padding:0 0 3px 0;}
 #footermenu #nav-meta {margin-top:2px;}
+
+#cc-notification-title {
+	font-size: 16px !important;
+	margin-bottom:10px !important;
+	display:block !important;
+}
+
+#cc-notification-text {
+	font-size: 11px !important;
+	display:block !important;
+	margin-top: 15px;
+	line-height: 1.5;
+	width:98%;
+}
+
+#cc-notification #cc-notification-permissions ul
+{
+	margin: 0 0 26px !important;
+	padding: 0 !important;
+	list-style: none !important;
+	float: left !important;
+	font-size:11px !important;
+}
+
+#cc-notification {background: linear-gradient(to bottom, #FFF 0%, #EFF0F0 100%) repeat scroll 0% 0% transparent !important; border: 1px solid #CCC !important; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);}
+
+#cc-modal {background: linear-gradient(to bottom, #FFF 0%, #EFF0F0 100%) repeat scroll 0% 0% transparent !important; border: 1px solid #CCC !important; box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);}
+
+#cc-notification #cc-notification-permissions {margin-top:15px !important;}
+#cc-notification #cc-notification-permissions ul li {margin-bottom:7px !important; float:left; line-height: 1.5 !important;}
+#cc-notification #cc-notification-permissions ul input {float: left !important;}
+#cc-notification #cc-notification-permissions ul label {float: left !important;	width:210px;}
+#cc-notification-icon {border: 0px none; height: 44px; width: 44px; position:fixed; left:0; bottom:0; background: url(img/piskotki-icon.png) no-repeat; display:block; z-index:9999; cursor:pointer;}
+#cc-tag {border: 0px none; height: 44px; width: 44px; position:fixed; left:0; bottom:0; background: url(img/piskotki-icon.png) no-repeat !important; display:block; z-index:99999999; cursor:pointer;}
+#cc-modal-wrapper ul li {list-style:none !important;}
+#cc-content ul li {font-size:11px !important; margin-bottom:10px !important; float:left;}
+#cc-content ul li label {font-size:11px !important;}
+#cc-content ul li span {font-size:11px !important;}
+#cc-content ul li strong {font-size:11px !important;}
 /* Added by Rok Samsa *********/
 
 /* @Reset defaults *********/
@@ -379,7 +421,6 @@ html {
 body {
   font: 14px/1.5 "Open Sans", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Calibri, sans-serif;
   color: #333;
-  word-wrap: break-word;
   -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
   -webkit-tap-highlight-color: #6bd7f3;
   -moz-tap-highlight-color: #6bd7f3;
@@ -479,7 +520,9 @@ a:active {
 #page {
   background-position: center top;
   background-repeat: repeat-x;
-  padding: 0 0 84px;
+  background-color: #F9F9F9;
+  background-image: url("http://www.mozilla.si/wp-content/uploads/2014/09/bg-stone.png");
+  padding: 0 0 10px;
   position: relative;
 }
 .wrap {
@@ -540,14 +583,17 @@ a:active {
 .main {
   float: left;
   width: 620px;
-  margin: 0 10px;
+  margin: 0 0px;
 }
 .sub {
   	float: left;
   	margin: 0 10px 0 50px;
 	font-size: .875em;
-	width: 260px;
 }
+
+/*#categories, .fm-search {display:none;}*/
+.page-id-1756 #content-main {width:100%;}
+#content-sub-wrap {width: 260px;}
 
 /*** @Widgets *********/
 .widget {
@@ -741,6 +787,8 @@ a:active {
   margin: 0;
 }
 
+h2.entry-title {line-height:120%;}
+
 .sub .featured-posts {
   padding: 5px 20px;
   margin: 0 auto 1.5em;
@@ -787,7 +835,7 @@ a:active {
 }
 .show-comments.no-author .entry-title {
   float: left;
-  width: 410px;
+  width: 528px;
 }
 .single-post .show-comments.no-author .entry-title {
   float: none;
@@ -852,6 +900,7 @@ a:active {
   float: left;
   font: 1em/1 "Open Sans Light", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Calibri, sans-serif;
   margin: 0 0 0 -92px;
+  margin-top: 10px;
   -ms-box-shadow: 0 1px 1px rgba(0,0,0,.1);
   -o-box-shadow: 0 1px 1px rgba(0,0,0,.1);
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
@@ -883,7 +932,7 @@ a:active {
   background: #fff;
   float: right;
   font: 1em/1 "Open Sans Light", "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Calibri, sans-serif;
-  margin: 0;
+  margin-top: 10px; /* prej margin:0 (sprememba pri dodajanju avtorja k novici) */
   -ms-box-shadow: 0 1px 1px rgba(0,0,0,.1);
   -o-box-shadow: 0 1px 1px rgba(0,0,0,.1);
   box-shadow: 0 1px 1px rgba(0,0,0,.1);
@@ -901,7 +950,7 @@ a:active {
   background-position: 24px -83px;
 }
 .show-comments.no-author .entry-comments {
-  position: absolute;
+  position: relative; /* Spremenjeno pri dodajanju avtorja k člankom */
   right: 0;
   top: 0;
 }
@@ -1038,6 +1087,26 @@ a:active {
   padding: 1%;
 }
 
+.backnone {
+  background-color: none;
+  border: 3px solid #fff;
+  box-shadow: none;
+  padding:0; 
+}
+
+.slb_controls, .slb_details {display:none;}
+
+.circle-image-1 {float:left; margin:0 0 25px 0;}
+.circle-image-2 {float:left; margin:0 0 25px 30px;}
+.circle-image-3 {float:right; margin:0 0 25px 0;}
+
+.entry-content img.backnone , .entry-summary img.backnone {
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding:0; 
+}
+
 .entry-content a:hover img,
 .entry-content a:focus img,
 .entry-content a:active img {
@@ -1048,6 +1117,8 @@ a:active {
   -webkit-transition: all .1s ease-out;
   transition: all .1s ease-out;
 }
+.entry-content a:hover img, .entry-content a:focus img, .entry-content a:active img {background:none !important;}
+
 .entry-content .wp-smiley,
 .entry-summary .wp-smiley {
   background: transparent;
@@ -1596,6 +1667,9 @@ input:-moz-placeholder {
   	#firefox-promo h3 {float:left; width:520px; margin: 0 10px; position: relative; padding-bottom: .2em; letter-spacing: -1px; white-space: nowrap;}
 	#firefox-promo ul.features li small {display: inline-block; padding:0; border-left:0 none;}
 	#firefox-promo #firefox-promo-link {position: absolute; top: -8px; left: 310px;}
+    .circle-image-1 {float:left; margin:0 0 25px 0;}
+    .circle-image-2 {float:left; margin:0 0 25px 30px;}
+    .circle-image-3 {float:left; margin:0 0 25px 0;}
   /* Rok Samsa */
 
   .wrap {
@@ -1675,6 +1749,9 @@ input:-moz-placeholder {
 @media only screen and (max-width: 767px) {
 	
 	/* Rok Samsa */
+    .circle-image-1 {float:left; margin:0 0 25px 0;}
+    .circle-image-2 {float:left; margin:0 0 25px 30px;}
+    .circle-image-3 {float:left; margin:0 0 25px 0;}
 	#masthead #mobilemenu {display:none;}
 	#masthead #topmenu {display:none;}
 	#masthead #mobilemenu #menu-main-menu-1 {
@@ -1743,7 +1820,9 @@ input:-moz-placeholder {
 	/* Rok Samsa */
 	
   #page {
-    padding-bottom: 24px;
+    padding-bottom: 5px;
+    background-color: #F9F9F9;
+    background-image: url("bg-stone.png");
   }
   .wrap {
     width: 320px;
@@ -1975,7 +2054,11 @@ input:-moz-placeholder {
   }
 
 }
-
+@media only screen and (max-width: 480px) {
+    .circle-image-1 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
+    .circle-image-2 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
+    .circle-image-3 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
+}
 /*  @Wide @Mobile @Layout: 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	
@@ -1991,6 +2074,10 @@ input:-moz-placeholder {
 	#firefox-promo .download-firefox {margin-top:10px; padding: 0 0 10px 0;}
 	#firefox-promo .download-firefox .download-link {margin-left:64px; width:220px;}
 	.download-firefox .download-other {margin: 4px -5px 0 0;}
+    .slb_controls, .slb_details {display:none;}
+    .circle-image-1 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
+    .circle-image-2 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
+    .circle-image-3 {margin:0 0 25px 0; display: block; width:100%; text-align: center; clear:both;}
 	/* Rok Samsa */
 
   .wrap {

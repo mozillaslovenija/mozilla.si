@@ -1,4 +1,4 @@
-<?php
+<?php 
 // Count search results
 global $wp_query;
 $total_results = $wp_query->found_posts;

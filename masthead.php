@@ -1,4 +1,4 @@
-  <header id="masthead" role="banner" <?php if (get_header_image()) : ?>class="image"<?php endif; ?>>
+<header id="masthead" role="banner" <?php if (get_header_image()) : ?>class="image"<?php endif; ?>>
     <hgroup>
     
     <span id="nav-main-toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>

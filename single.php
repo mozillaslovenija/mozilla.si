@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
   <div id="content-main" class="main" role="main">
 
     <?php while ( have_posts() ) : the_post(); ?>

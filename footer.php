@@ -1,3 +1,4 @@
+
 <?php $theme_options = onemozilla_get_theme_options(); ?>
 
   </div><!-- #content -->
@@ -21,7 +22,7 @@
     </p>
 
     <p id="colophon">
-    Spletna stran Mozilla Slovenija je na voljo pod okriljem dovoljenja <a href="http://creativecommons.org/licenses/by/2.5/si/" rel="external license">Creative Commons Priznanje avtorstva 2.5 Slovenija.</a><br /><br />
+    Spletna stran Mozilla Slovenija je na voljo pod okriljem dovoljenja <a target="_blank" href="http://creativecommons.org/licenses/by/2.5/si/" rel="external license">Creative Commons Priznanje avtorstva 2.5 Slovenija.</a><br /><br />
     <a target="_blank" href="mailto:info@mozilla.si?Subject=Mozilla Slovenija" rel="external">Stopite v stik z nami</a>
     </p>
    
@@ -44,6 +45,14 @@
 </footer>
 
 <script src="https://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
+
+<!-- CrazyEgg for mozilla.si -->
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0017/2387.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 
 <?php wp_footer(); ?>
 
